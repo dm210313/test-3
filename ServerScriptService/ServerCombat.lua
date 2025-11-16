@@ -7,7 +7,7 @@ game.ReplicatedStorage.MainEvent.OnServerEvent:Connect(function(player)
 		task.wait(0.25)
 	end)
 	
-	local hitbox = Instance.new("Part")
+	local hitbox = Instance.new("Part") --asdasdasd
 	
 	hitbox.Parent = workspace
 	hitbox.CanCollide = false
